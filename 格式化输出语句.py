@@ -18,6 +18,10 @@ def test_format():
     print('{name} wrote {book}'.format(name='Swaroop', book='A Byte of Python'))
     # end 指定其语句结束符,默认是换行结束符
     print('aaa', end='000')
+    # 转义字符
+    print("\t\\")
+    # 原始字符串,在处理正则表达式时应全程使用原始字符串
+    print(r"Newlines are indicated by \n")
 
 
 if __name__ == '__main__':
